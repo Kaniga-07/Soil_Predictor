@@ -1,0 +1,125 @@
+.predict{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240910/pngtree-green-field-with-lines-of-crops-blur-bckground-on-sunny-day-image_16157178.jpg");
+      background-size: cover;  /* Ensures the background image covers the entire container */
+  background-position: center;  /* Centers the background image */
+  background-repeat: no-repeat;  /* Prevents the image from repeating */
+  min-height: 100vh;  /* Ensures it takes the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h1 {
+    color: #185a9d;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #185a9d;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+button {
+    background: #43cea2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #185a9d;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.crop-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.crop-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+.crop-card p strong {
+    color: #4CAF50;
+}
+
+/* Error message */
+p[style*="color: red"] {
+    margin-top: 20px;
+}
+
+
+.crop-card:hover {
+    transform: scale(1.05);
+}
+
+.crop-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #185a9d;
+}
+
+@media (max-width: 768px) {
+    .crop-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .crop-card {
+        max-width: 90%;
+    }
+}
+
+.crop-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.crop-details-container h1 {
+    color: #185a9d;
+    margin-bottom: 20px;
+}
+
+.crop-details-container p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.crop-details-container img.crop-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}

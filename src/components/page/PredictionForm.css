@@ -1,0 +1,42 @@
+.prediction-form {
+    padding: 2rem;
+    text-align: center;
+    background-image: url("https://c1.wallpaperflare.com/preview/124/338/539/rice-plant-field-agriculture.jpg");
+    background-size: cover;  /* Ensures the background image covers the entire container */
+    background-position: center;  /* Centers the background image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    min-height: 100vh;  /* Ensures it takes the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prediction-form label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .prediction-form input {
+    padding: 0.8rem;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #1eb2a6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #17a398;
+  }
+  
